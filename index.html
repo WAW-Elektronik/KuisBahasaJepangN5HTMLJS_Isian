@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Kuis Bahasa Jepang N5</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    .soal-card { border: 1px solid #ccc; padding: 10px; margin-bottom: 15px; }
+    .feedback { margin-top: 5px; }
+    h1 {
+      text-align: center;
+    }
+     #keypad-popup button {
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    #keypad-popup button:hover {
+      background-color: #eee;
+    }
+    select, input[type="text"] {
+      font-size: 1rem;
+      padding: 8px;
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 15px;
+    }
+    button {
+      padding: 8px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    #soal-container {
+      background: #fff;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Kuis Bahasa Jepang N5</h1>
+  <h2>Pilih Kategori Soal:</h2>
+
+  <!-- Dropdown Pilihan -->
+  <div>
+    <label for="selectKataKerja">Kata Kerja:</label>
+    <select id="selectKataKerja">
+        <option value="">-- Pilih Subkategori --</option>
+        <option value="Katakerja/Isian_PerubahanBentuk/PerubahanBentuk">Perubahan Bentuk</option>
+        <option value="Katakerja/Isian_ArtikeJepang/ArtiKeJepang">Arti ke Jepang</option>
+        <option value="Katakerja/Isian_ArtikeIndonesia/ArtiKeIndonesia">Arti ke Indonesia</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="selectKataSifat">Kata Sifat:</label>
+    <select id="selectKataSifat">
+        <option value="">-- Pilih Subkategori --</option>
+        <option value="KataSifat/KataSifatI_Isian_ArtikeJepang/ArtiKeJepangI">Sifat I - Arti ke Jepang</option>
+        <option value="KataSifat/KataSifatI_Isian_ArtikeIndonesia/ArtiKeIndonesiaI">Sifat I - Arti ke Indonesia</option>
+        <option value="KataSifat/KataSifatNa_Isian_ArtikeJepang/ArtiKeJepangNa">Sifat Na - Arti ke Jepang</option>
+        <option value="KataSifat/KataSifatNa_Isian_ArtikeIndonesia/ArtiKeIndonesiaNa">Sifat Na - Arti ke Indonesia</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="selectKataBenda">Kata Benda:</label>
+    <select id="selectKataBenda">
+        <option value="">-- Pilih Subkategori --</option>
+        <option value="KataBenda/Isian_ArtikeJepang/ArtiKeJepang">Arti ke Jepang</option>
+        <option value="KataBenda/Isian_ArtikeIndonesia/ArtiKeIndonesia">Arti ke Indonesia</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="selectKanji">Kanji:</label>
+    <select id="selectKanji">
+        <option value="">-- Pilih Subkategori --</option>
+        <option value="Kanji/Isian_ArtikeJepang/ArtiKeJepang">Arti ke Jepang</option>
+        <option value="Kanji/Isian_ArtikeIndonesia/ArtiKeIndonesia">Arti ke Indonesia</option>
+        <option value="Kanji/Furigana/Furigana">Furigana</option>
+        <option value="Kanji/Isian_BentukKunyomidanOnyomi/KunyomiOnyomi">Kunyomi & Onyomi</option>
+    </select>
+  </div>
+
+  <!-- Container Soal -->
+  <div id="soal-container" style="margin-top: 20px;"></div>
+
+  <!-- Skor Akhir -->
+  <div id="skor-akhir" style="margin-top: 20px; font-size: 1.2em;"></div>
+
+   <!-- Keypad Pop-up -->
+  <div id="keypad-popup" style="display:none; position:absolute; z-index:9999; background:#fff; border:1px solid #ccc; box-shadow:2px 2px 10px rgba(0,0,0,0.2); padding:10px; border-radius:8px;"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
