@@ -64,5 +64,19 @@ window.soalKuis = [
   { pertanyaan: "Apa furigana dari kanji '聞'?", jawaban: "き / ぶん" },
   { pertanyaan: "Apa furigana dari kanji '食'?", jawaban: "た / しょく" },
   { pertanyaan: "Apa furigana dari kanji '車'?", jawaban: "くるま / しゃ" },
-  { pertanyaan: "Apa furigana dari kanji '何'?", jawaban: "なに / なん" }
+  { pertanyaan: "Apa furigana dari kanji '何'?", jawaban: "なに / なん" },
+  { pertanyaan: "Apa furigana dari kanji '南'?", jawaban: "みなみ" },
+  { pertanyaan: "Apa furigana dari kanji '万'?", jawaban: "まん" },
+  { pertanyaan: "Apa furigana dari kanji '毎'?", jawaban: "まい" },
+  { pertanyaan: "Apa furigana dari kanji '白'?", jawaban: "しろ" },
+  { pertanyaan: "Apa furigana dari kanji '天'?", jawaban: "てん" },
+  { pertanyaan: "Apa furigana dari kanji '母'?", jawaban: "はは" },
+  { pertanyaan: "Apa furigana dari kanji '火'?", jawaban: "ひ / び / か" },
+  { pertanyaan: "Apa furigana dari kanji '右'?", jawaban: "みぎ" },
+  { pertanyaan: "Apa furigana dari kanji '読'?", jawaban: "よむ / よみ / どく / とう" },
+  { pertanyaan: "Apa furigana dari kanji '友'?", jawaban: "とも" },
+  { pertanyaan: "Apa furigana dari kanji '左'?", jawaban: "ひだり" },
+  { pertanyaan: "Apa furigana dari kanji '休'?", jawaban: "やす" },
+  { pertanyaan: "Apa furigana dari kanji '父'?", jawaban: "ちち" },
+  { pertanyaan: "Apa furigana dari kanji '雨'?", jawaban: "あめ" }
 ];
