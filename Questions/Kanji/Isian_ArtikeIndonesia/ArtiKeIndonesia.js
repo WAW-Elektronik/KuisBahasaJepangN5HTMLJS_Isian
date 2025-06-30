@@ -64,6 +64,19 @@ window.soalKuis = [
   { pertanyaan: "Apa arti dari kanji '聞'?", jawaban: "mendengar / bertanya" },
   { pertanyaan: "Apa arti dari kanji '食'?", jawaban: "makan" },
   { pertanyaan: "Apa arti dari kanji '車'?", jawaban: "mobil / kendaraan" },
-  { pertanyaan: "Apa arti dari kanji '何'?", jawaban: "apa" }
+  { pertanyaan: "Apa arti dari kanji '何'?", jawaban: "apa" },
+  { pertanyaan: "Apa arti dari kanji '南'?", jawaban: "Selatan" },
+  { pertanyaan: "Apa arti dari kanji '万'?", jawaban: "sepuluh ribu" },
+  { pertanyaan: "Apa arti dari kanji '毎'?", jawaban: "setiap" },
+  { pertanyaan: "Apa arti dari kanji '白'?", jawaban: "putih" },
+  { pertanyaan: "Apa arti dari kanji '天'?", jawaban: "surga" },
+  { pertanyaan: "Apa arti dari kanji '母'?", jawaban: "ibu" },
+  { pertanyaan: "Apa arti dari kanji '火'?", jawaban: "api" },
+  { pertanyaan: "Apa arti dari kanji '右'?", jawaban: "kanan" },
+  { pertanyaan: "Apa arti dari kanji '読'?", jawaban: "baca" },
+  { pertanyaan: "Apa arti dari kanji '友'?", jawaban: "teman" },
+  { pertanyaan: "Apa arti dari kanji '左'?", jawaban: "kiri" },
+  { pertanyaan: "Apa arti dari kanji '休'?", jawaban: "istirahat" },
+  { pertanyaan: "Apa arti dari kanji '父'?", jawaban: "ayah" },
+  { pertanyaan: "Apa arti dari kanji '雨'?", jawaban: "hujan" }
 ];
-
